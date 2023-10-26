@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- A meta tag keywords é utilizada para informar ao computador as palavras caves do site, para assim aparecerem nas buscas -->
+    <meta name="keywords" content="Alimentação saúdavel, alimentos, bem-estar">
+    <!-- A meta tag description é utilizada para definir a descrição do site na busca -->
+    <meta name="description" content=" O portal Boas Escolhas foi criado para você que precisa usar melhor seu tempo, cuidar da saúde e praticar esportes.">
+    <!-- A meta tag author define o autor da página Web -->
+    <meta name="author" content="Bruna Martins">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <title>Boas Escolhas</title>
+</head>
+<body>
+    <div id="principal">
+        <!-- Inicio do cabeçalho -->
+        <header id="topo">
+            <div id="logotipo">
+                <span class="amarelo">B</span>OAS<span class="vermelho">E</span>SCOLHAS
+            </div>
+
+            <!-- MENU -->
+            <nav id="menu">
+                <!-- MENU -->
+                <ul id="navegacao">
+                    <li>
+                        <a href="#" target="_self" class="linkmenu">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" class="linkmenu">Alimentação</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" class="linkmenu">Atividades Físicas</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" class="linkmenu">Otimize seu Tempo</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" class="linkmenu">Contato</a>
+                    </li>
+                </ul>
+
+                <!-- MENU MOBILE -->
+                <select name="menu-mobile" id="menu-mobile" onChange="if(this.selectedIndex!=0)self.location=this.options[this.selectedIndex].value">
+                    <option>Navegação</option>
+                    <option value="index.html">Home</option>
+                    <option value="index.html">Alimentação</option>
+                    <option value="index.html">Atividades Físicas</option>
+                    <option value="index.html">Otimize seu tempo</option>
+                    <option value="index.html">Contato</option>
+                </select>
+            </nav>
+        </header>
+        <!-- Final do cabeçalho -->
+
+        <!-- Inicio dos Subitens -->
+        <ul id="subitens">
+            <li class="itemlista bgverde">
+                <a href="#" target="_self">
+                    <img src="imagens/icones/puzzle.png" alt="icone-de-uma-peca-jogo-quebra-cabeca">
+
+                    <br>
+                    <span>Submenu 01</span>
+                </a>
+            </li>
+            <li class="itemlista bglaranja">
+                <a href="#" target="_self">
+                    <img src="imagens/icones/soccer-ball.png" alt="icone-soccer-ball">
+
+                    <br>
+                    <span>Submenu 02</span>
+                </a>
+            </li>
+            <li class="itemlista bgroxo" >
+                <a href="#" target="_self">
+                    <img src="imagens/icones/happy-man.png" alt="icone-happy-man">
+
+                    <br>
+                    <span>Submenu 03</span>
+                </a>
+            </li>
+            <li class="itemlista bgvermelho" >
+                <a href="#" target="_self">
+                    <img src="imagens/icones/rocket.png" alt="icone-rocket">
+
+                    <br>
+                    <span>Submenu 04</span>
+                </a>
+            </li>
+            <li class="itemlista bgamarelo">
+                <a href="#" target="_self">
+                    <img src="imagens/icones/diamond.png" alt="icone-diamond">
+
+                    <br>
+                    <span>Submenu 05</span>
+                </a>
+            </li>
+        </ul>
+        <!-- Final dos Subitens -->
+
+        <!-- Inicio Conteudo -->
+        <section id="conteudo">
+            <div id="imagemConteudo">
+                <img src="imagens/500x400.jpg" alt="Na imagem vemos um monitor desktop, um tablet e um smartphone mostrando a tela de um mesmo site em suas versões diferentes">
+            </div>
+            <article id="textoConteudo">
+                <h1>Bem vindo ao portal <span class="amarelo">B</span>OAS<span class="vermelho">E</span>SCOLHAS</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe cum a dolor placeat enim.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe cum a dolor placeat enim.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe cum a dolor placeat enim.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe cum a dolor placeat enim.
+                </p>
+
+                <a href="#" target="_self" class="btn bgvermelho">Saiba Mais</a>
+            </article>
+        </section>
+        <!-- Final Conteudo -->
+
+        <!-- Inicio Destaque -->
+        <section id="destaque">
+            <h2>Título em destaque na página Boas Escolhas</h2>
+
+            <div id="botoes">
+                <a href="#" target="_self" class="btn bglaranja">Link Destaque 01</a>
+                <a href="#" target="_self" class="btn bgamarelo">Link Destaque 02</a>
+            </div>
+        </section>
+        <!-- Final Conteudo -->
+
+        <!-- Inicio Rodapé -->
+        <footer id="rodape">
+            <div id="infos">
+                <div class="saibaMais">
+                    <h3>Mais Sobre Nós</h3>
+                    <hr>
+
+                    <p>Rua Santa Cruz, 1148 - Bairro Alto</p>
+                    <p>Piracicaba - SP, 13419-030</p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel-19998398168">(19) 99839-8168</a>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        <a href="mailto:colocaremail@gmail.com">colocaremail@hotmail.com</a>
+                    </p>
+                </div>
+                <div class="saibaMais">
+                    <h3>Links Rápidos</h3>
+                    <hr>
+
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" target="_self">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self">Galeria</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self">Portifólio</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self">Entre em contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="saibaMais">
+                    <h3>Nosso Blog</h3>
+                    <hr>
+
+                    <a href="#" target="_self">
+                        <h2>Post01</h2>
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Cupiditate, itaque!
+                        </p>
+                    </a>
+                </div>
+                <div class="saibaMais">
+                    <h3>Entre em Contato</h3>
+                    <hr>
+
+                    <div id="contato">
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Digite seu email...">
+                            <input type="submit" value="Enviar" id="btn-enviar">
+                        </form>
+
+                        <div id="sociais">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#" target="_blank" class="social" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="social" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="social" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="social" title="Google"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/ali.san18/" target="_blank" class="social" title="Instagram"><i class="fa-brands fa-instagram"></i></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="social" title="Tumbler"><i class="fa-brands fa-tumblr"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- CLEAFIX -->
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="final-rodape">
+                <div id="copy">
+                    &copy; COPYRIGHT 2023 - Boas Escolhas - Todos os direitos reservados
+                </div>
+
+                <div id="dev">
+                    Desenvolvido por: <a href="mailto:alissonsanches54@gmail.com" target="_blank">Alisson Sanches</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
