@@ -11,8 +11,8 @@ Seu principal objetivo como projeto foi a responsividade e conceitos aprimorados
 
 ## Tecnologias Utilizadas
 
--HTML5: Para realizar toda a marcação da página
--CSS: Para estilizar o site e garantir a responsividade.
+- HTML5: Para realizar toda a marcação da página
+- CSS: Para estilizar o site e garantir a responsividade.
 
 ## Como Usar
 
